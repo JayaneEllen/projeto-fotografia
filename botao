@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jessé Produções</title>
+   
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      color: #333333;
+      background-color: #FFFFF0;
+      line-height: 2.4;
+    }
+
+    header {
+      background: #DCDCDC;
+      padding: 60px 20px 40px;
+      text-align: center;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .header-container .logo {
+      width: 80px;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #A9A9A9;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      font-weight: 400;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px 0;
+      background: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #696969;
+      font-size: 0.95em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #b0b0b0;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1549921296-3a8bdfb2e4cf?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #696969;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      background-color: rgba(176, 176, 176, 0.4);
+      padding: 20px 40px;
+      border-radius: 8px;
+      font-weight: 300;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section h3 {
+      font-size: 2em;
+      margin-bottom: 25px;
+      font-weight: 400;
+      color: #333333;
+      border-left: 5px solid #A9A9A9;
+      padding-left: 10px;
+    }
+
+    .sobre-conteudo {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .sobre-conteudo img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid #e0e0e0;
+    }
+
+    .sobre p {
+      margin-bottom: 20px;
+      font-size: 1.05em;
+      color: #333333;
+    }
+
+    .orcamento form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .orcamento input,
+    .orcamento select,
+    .orcamento textarea {
+      padding: 14px;
+      font-size: 1em;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      font-family: inherit;
+      background-color: #ffffff;
+    }
+
+    .orcamento button {
+      background-color: #b0b0b0;
+      border: none;
+      padding: 14px;
+      color: #ffffff;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .orcamento button:hover {
+      background-color: #cccccc;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+      color: #333333;
+      border-top: 1px solid #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9Bz8HC5i0olOjbdrTs6J0e1USaxM5Ky3Dg&s" alt="Logo Jessé Produções" class="logo">
+      <h1>Jessé Produções</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Quem Sou Eu</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#orcamento">Orçamento</a>
+  </nav>
+
+
+
+  <section id="sobre" class="sobre">
+    <h3>Quem Sou Eu</h3>
+    <div class="sobre-conteudo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaizcHEgPqZOewB1SK4vEQPTNzaZCr_aZu1w&s" alt="Foto da fotógrafa Linda">
+      <div class="texto">
+        <p>Para quem não me conhece, me chamo Linda e estou na fotografia há 30 anos, desde a minha adolescência. Venho de uma família de fotógrafos, e fui criada num ambiente criativo com diversas produções. Desde cedo tenho essa paixão pela fotografia e sou especializada em fotografar gestantes, mulheres, e famílias.</p>
+        <p>Aqui no estúdio Jessé Produções temos uma equipe de luxo, para enaltecer ainda mais este momento, como também: maquiador, estilista, catering, videomaker, entre outros!</p>
+        <p>Temos também vários ambientes preparados, para tornar seu dia especial, como por exemplo: lounge, espaço kids, espaço PET, cozinha e agora um ateliê de costura, onde são confeccionados os looks com exclusividade para cada cliente, usando a técnica de moulage.</p>
+        <p>Venha viver esta experiência e surpreenda-se.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="orcamento" class="orcamento">
+    <h3>Agende seu sonho de ensaio</h3>
+    <form>
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <select name="Ensaios" required>
+        <option value="">Selecione o tipo de ensaio</option>
+        <option value="GESTACIONAL">Gestacional</option>
+        <option value="CORPORATIVO">Corporativo</option>
+        <option value="FAMILIA">Família</option>
+      </select>
+      <textarea rows="4" placeholder="Observações" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <div id="ULEP-btn-call" class="ulep ulep-whats no-click">
+			<a id="ULEP_button" href="https://api.whatsapp.com/send/?phone=5547992250982&amp;text=Ol%C3%A1%21+Gostaria+de+receber+informa%C3%A7%C3%B5es+sobre+ensaio+de+gestante.+" target="_blank">
+	
+	<div class="layout-button layout-button-avatar_profile layout-button-desktop float-left">
+	<img src="https://eb4957a52c865c65ccb5-87b238db71dd11d0ce0f195132bccd2d.ssl.cf1.rackcdn.com//profile/394-profile-20220425-153654.jpeg">
+	<span class="text-button">
+		Pedir Orçamento		
+	</span>
+</div>
+	<div class="layout-button layout-button-avatar_mobile layout-button-mobile float-left">
+	<img src="https://eb4957a52c865c65ccb5-87b238db71dd11d0ce0f195132bccd2d.ssl.cf1.rackcdn.com//profile/394-profile-20220425-153654.jpeg">
+	<span class="text-button">
+		Pedir Orçamento
+	</span>
+</div>
+		
+			</a>
+	
+	
+	</div>
+  <div><link rel="stylesheet" href="https://epics-public-files.s3.us-east-1.amazonaws.com/css/webhook.min.css">
+
+<style type="text/css">
+	#ULEP-btn-call .layout-button, #ULEP-btn-call .item-call {
+		background-color: #25d366; 
+		color: #ffffff; 
+	}
+	#ULEP-btn-call .item-call a {
+		color: #ffffff; 
+	}
+	.ulep .btn-success {
+		background-color: #25d366; 
+		color: #ffffff;
+		border: none;
+	}
+	.ulep .btn-form {
+        background-color: #25d366; 
+        color: #ffffff;
+    }
+    #ULEP_FORM_TEXT {
+        font-size: 16px;
+        color: #ffffff; 
+        width: 100%;
+        display: block;
+        padding: 15px 20px;
+        cursor: pointer;
+    }
+</style>
+
+<div id="ULEP-btn-call" class="ulep ulep-whats no-click">
+			<a id="ULEP_button" href="https://bit.ly/3keWZKmlwhats" target="_blank">
+	
+	<div class="layout-button layout-button-avatar_profile layout-button-desktop float-left">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9Bz8HC5i0olOjbdrTs6J0e1USaxM5Ky3Dg&s" alt="Logo Jessé Produções" class="logo">
+	<span class="text-button">
+		Pedir Orçamento		
+	</span>
+</div>
+	<div class="layout-button layout-button-avatar_mobile layout-button-mobile float-left">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9Bz8HC5i0olOjbdrTs6J0e1USaxM5Ky3Dg&s" alt="Logo Jessé Produções" class="logo">
+	<span class="text-button">
+		Pedir Orçamento
+	</span>
+</div>
+		
+			</a>
+	
+	
+	</div>
+
+
+  <footer>
+    <p>@jesseproducoes_.</p>
+  </footer>
+</body>
+</html>
