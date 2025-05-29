@@ -9,10 +9,8 @@ O site foi criado usando HTML, CSS e JavaScript para oferecer uma experiência s
 
 ## Estrutura do Projeto
 
-- `index.html` — Página inicial  
-- `sobre.html` — Informações sobre o estúdio  
-- `servicos.html` — Lista dos serviços oferecidos  
-- `contato.html` — Formulário e informações para contato  
+- `pagina1.html` — Página inicial  
+- `obrigado.html` — Página de agradecimento 
 - Arquivos CSS para estilo  
 - Scripts JavaScript para interatividade  
 
@@ -26,3 +24,4 @@ O site foi criado usando HTML, CSS e JavaScript para oferecer uma experiência s
 
 - HTML 
 - CSS  
+- JS
